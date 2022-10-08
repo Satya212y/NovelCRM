@@ -25,14 +25,7 @@ public class Billing {
 	private String product;
 	@Column(name="amount")
 	private long amount;
-	public Object getId;
 	
-	public Object getGetId() {
-		return getId;
-	}
-	public void setGetId(Object getId) {
-		this.getId = getId;
-	}
 	public long getAmount() {
 		return amount;
 	}
